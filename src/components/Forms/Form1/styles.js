@@ -41,7 +41,7 @@ export const Formulario = styled.div`
     transition: background 0.2s;
     &:hover {
       cursor: pointer;
-      background: ${darken(0.03, "#7159c1")};
+      background: ${darken(0.1, "#7159c1")};
     }
   }
 
