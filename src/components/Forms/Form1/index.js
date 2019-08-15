@@ -14,7 +14,7 @@ const Form1 = () => {
   return (
     <Container>
       <Formulario>
-        <h1>Form1</h1>
+        <h1>Form1 - Basic</h1>
         <Form onSubmit={handleSubmit}>
           <Input label="e-mail" name="email" />
           <Input label="password" name="password" type="password" />
