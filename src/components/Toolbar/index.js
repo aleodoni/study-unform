@@ -15,6 +15,11 @@ export default function Toolbar() {
           <strong>Formulário 2</strong>
         </div>
       </LinkForm>
+      <LinkForm to="/formulario3">
+        <div>
+          <strong>Formulário 3</strong>
+        </div>
+      </LinkForm>
     </Container>
   );
 }
