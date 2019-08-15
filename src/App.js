@@ -1,16 +1,19 @@
 import React from "react";
-
-import Form1 from "./components/Forms/Form1";
-import Form2 from "./components/Forms/Form2";
+import Toolbar from "./components/Toolbar";
 import GlobalStyle from "./styles/global";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Formulario1 from "./pages/Formulario1";
+import Formulario2 from "./pages/Formulario2";
 
 function App() {
   return (
     <>
-      <Form1 />
-      <Form2 />
-
-      <GlobalStyle />
+      <Router>
+        <Toolbar />
+        <Route path="/formulario1" component={Formulario1} />
+        <Route path="/formulario2" component={Formulario2} />
+        <GlobalStyle />
+      </Router>
     </>
   );
 }
